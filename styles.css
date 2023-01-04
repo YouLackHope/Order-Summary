@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Outfit, sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100%
+}
+
+h5 {
+    color:hsl(223, 47%, 23%);
+}
+
+p {
+    color: #9480a7;
+}
+
+button {
+    font-family: Outfit, sans-serif;
+}
+
+.info > .title {
+    font-size: 1.2rem;
+    color: hsl(223, 47%, 23%);
+    margin: 10px 15px;
+}
+
+.card {
+    max-width: 320px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.bg-image {
+    max-width: 100%;
+}
+
+.after-img {
+    padding: 10px;
+}
+
+.info {
+    text-align: center;
+    font-size: 16px;
+    color: #9480a7;
+}
+
+.plan {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.a-text > img {
+    padding-right: 10px; 
+} 
+
+
+.a-text {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+
+.a-change {
+    margin-right: 10px;
+}
+
+.a-change > a:hover {
+    text-decoration: none;
+    color: hsl(245, 73%, 66%);
+}
+
+
+.buttons {
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.pay {
+    width: 300px;
+    border-radius: 15px;
+    height: 40px;
+    background-color: #3829e0;
+    border: none;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 20px 15px hsl(225, 100%, 94%);
+}
+
+.cancel {
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pay:hover {
+    background-color: hsl(245, 73%, 66%);
+}
+
+.cancel:hover {
+    text-decoration: none;
+}
